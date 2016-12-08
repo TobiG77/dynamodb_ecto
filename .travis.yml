@@ -12,3 +12,5 @@ before_script:
   - docker pull tray/dynamodb-local
   - docker run -d -p 8000:8000 tray/dynamodb-local -inMemory -port 8000
   - sleep 2
+script:
+  - mix test --color --trace
