@@ -2,6 +2,9 @@
 
 ** An Ecto 2.x compatible DynamoDB adapter
 
+** No frills implementation
+** This is a NoSQL store
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:

@@ -1,0 +1,14 @@
+language: elixir
+elixir: 1.3.4
+sudo: required
+services:
+  - docker
+notifications:
+  recipients:
+    - tobias.gerschner@gmail.com
+otp_release:
+  - 19.1
+before_script:
+  - docker pull tray/dynamodb-local
+  - docker run -d -p 8000:8000 tray/dynamodb-local -inMemory -port 8000
+  - sleep 2
