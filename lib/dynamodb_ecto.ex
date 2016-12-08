@@ -1,0 +1,2 @@
+defmodule DynamodbEcto do
+end
