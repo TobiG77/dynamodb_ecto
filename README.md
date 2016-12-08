@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/TobiG77/dynamodb_ecto.svg?branch=master)](https://travis-ci.org/TobiG77/dynamodb_ecto)
+
 # DynamodbEcto
 
 ** An Ecto 2.x compatible DynamoDB adapter
